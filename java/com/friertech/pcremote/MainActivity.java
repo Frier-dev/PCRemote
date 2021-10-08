@@ -1,11 +1,3 @@
-//Peter MAC: "2C-4D-54-D1-03-08"
-//Peter v4: "192.168.1.140"
-//Peter Broadcast: "192.168.1.255"
-
-//Mads MAC: "0C-9D-92-11-40-E7"
-//Mads v4: "192.168.1.127"
-//Mads Broadcast: "192.168.1.255"
-
 package com.friertech.pcremote;
 
 import androidx.appcompat.app.AlertDialog;
