@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/SetupGuide"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/rectangle_30" />
+
+    <TextView
+        android:id="@+id/SetupGuideText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="26dp"
+        android:fontFamily="@font/roboto_black"
+        android:text="Setup guide"
+        android:textColor="#2196F3"
+        android:textSize="16sp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/SetupGuide" />
+
+    <TextView
+        android:id="@+id/AboutFrierTech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="26dp"
+        android:fontFamily="@font/roboto_black"
+        android:text="About FrierTech"
+        android:textColor="#2196F3"
+        android:textSize="16sp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+    <ImageView
+        android:id="@+id/OnIcon"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/On"
+        app:layout_constraintStart_toStartOf="@+id/On"
+        app:layout_constraintTop_toTopOf="@+id/On"
+        app:srcCompat="@drawable/on" />
+
+    <ImageView
+        android:id="@+id/OffIcon"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Off"
+        app:layout_constraintStart_toStartOf="@+id/Off"
+        app:layout_constraintTop_toTopOf="@+id/Off"
+        app:srcCompat="@drawable/off" />
+
+    <ImageView
+        android:id="@+id/RestartIcon"
+        android:layout_width="105px"
+        android:layout_height="105px"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Restart"
+        app:layout_constraintStart_toStartOf="@+id/Restart"
+        app:layout_constraintTop_toTopOf="@+id/Restart"
+        app:srcCompat="@drawable/nopath___copy" />
+
+    <ImageView
+        android:id="@+id/SleepIcon"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Sleep"
+        app:layout_constraintStart_toStartOf="@+id/Sleep"
+        app:layout_constraintTop_toTopOf="@+id/Sleep"
+        app:srcCompat="@drawable/sleep" />
+
+    <ImageView
+        android:id="@+id/LockIcon"
+        android:layout_width="105px"
+        android:layout_height="105px"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Lock"
+        app:layout_constraintStart_toStartOf="@+id/Lock"
+        app:layout_constraintTop_toTopOf="@+id/Lock"
+        app:srcCompat="@drawable/nopath___copy__2_" />
+
+    <ImageView
+        android:id="@+id/ProgramIcon"
+        android:layout_width="110px"
+        android:layout_height="110px"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Program"
+        app:layout_constraintStart_toStartOf="@+id/Program"
+        app:layout_constraintTop_toTopOf="@+id/Program"
+        app:srcCompat="@drawable/add_app" />
+
+    <ImageView
+        android:id="@+id/Cat1Icon"
+        android:layout_width="110px"
+        android:layout_height="110px"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Cat1"
+        app:layout_constraintStart_toStartOf="@+id/Cat1"
+        app:layout_constraintTop_toTopOf="@+id/Cat1"
+        app:srcCompat="@drawable/rectangle_31" />
+
+    <ImageView
+        android:id="@+id/Cat2Icon"
+        android:layout_width="110px"
+        android:layout_height="110px"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Cat2"
+        app:layout_constraintStart_toStartOf="@+id/Cat2"
+        app:layout_constraintTop_toTopOf="@+id/Cat2"
+        app:srcCompat="@drawable/rectangle_31" />
+
+    <ImageView
+        android:id="@+id/dot"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Off"
+        app:layout_constraintEnd_toEndOf="@+id/Off"
+        app:layout_constraintTop_toTopOf="@+id/Off"
+        app:srcCompat="@drawable/dot" />
+
+    <ImageView
+        android:id="@+id/dot1"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/On"
+        app:layout_constraintEnd_toEndOf="@+id/On"
+        app:layout_constraintTop_toTopOf="@+id/On"
+        app:srcCompat="@drawable/dot" />
+
+    <ImageView
+        android:id="@+id/dot2"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Restart"
+        app:layout_constraintEnd_toEndOf="@+id/Restart"
+        app:layout_constraintTop_toTopOf="@+id/Restart"
+        app:srcCompat="@drawable/dot" />
+
+    <ImageView
+        android:id="@+id/dot3"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Sleep"
+        app:layout_constraintEnd_toEndOf="@+id/Sleep"
+        app:layout_constraintTop_toTopOf="@+id/Sleep"
+        app:srcCompat="@drawable/dot" />
+
+    <ImageView
+        android:id="@+id/dot4"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Lock"
+        app:layout_constraintEnd_toEndOf="@+id/Lock"
+        app:layout_constraintTop_toTopOf="@+id/Lock"
+        app:srcCompat="@drawable/dot" />
+
+    <ImageView
+        android:id="@+id/dot5"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Program"
+        app:layout_constraintEnd_toEndOf="@+id/Program"
+        app:layout_constraintTop_toTopOf="@+id/Program"
+        app:srcCompat="@drawable/dot" />
+
+    <ImageView
+        android:id="@+id/dot6"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Cat1"
+        app:layout_constraintEnd_toEndOf="@+id/Cat1"
+        app:layout_constraintTop_toTopOf="@+id/Cat1"
+        app:srcCompat="@drawable/dot" />
+
+    <ImageView
+        android:id="@+id/dot7"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Cat2"
+        app:layout_constraintEnd_toEndOf="@+id/Cat2"
+        app:layout_constraintTop_toTopOf="@+id/Cat2"
+        app:srcCompat="@drawable/dot" />
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_black"
+        android:text="PC Remote"
+        android:textSize="22.5sp"
+        app:layout_constraintBottom_toTopOf="@+id/status"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Devices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/roboto_black"
+        android:text="DEVICES"
+
+        android:textColor="#2196F3"
+        android:textSize="16sp"
+        android:translationZ="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Cancel" />
+
+    <TextView
+        android:id="@+id/activeText"
+        android:layout_width="243dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:fontFamily="@font/roboto_black"
+        android:text="Active: "
+        android:textSize="22sp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/status"
+        app:layout_constraintStart_toEndOf="@+id/OnIcon"
+        app:layout_constraintTop_toTopOf="@+id/status"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:fontFamily="@font/roboto_condensed_light"
+        android:text="Status: N/A"
+        android:textSize="16sp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/status"
+        app:layout_constraintStart_toEndOf="@+id/OnIcon"
+        app:layout_constraintTop_toTopOf="@+id/status"
+        app:layout_constraintVertical_bias="0.800" />
+
+    <TextView
+        android:id="@+id/OnText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:fontFamily="@font/roboto_black"
+        android:text="On"
+        android:textSize="22sp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/On"
+        app:layout_constraintStart_toEndOf="@+id/OnIcon"
+        app:layout_constraintTop_toTopOf="@+id/On"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <TextView
+        android:id="@+id/OnText2nd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:fontFamily="@font/roboto_condensed_light"
+        android:text="Turns on PC"
+        android:textSize="16sp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/On"
+        app:layout_constraintStart_toEndOf="@+id/OnIcon"
+        app:layout_constraintTop_toTopOf="@+id/On"
+        app:layout_constraintVertical_bias="0.800" />
+
+    <TextView
+        android:id="@+id/OffText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:fontFamily="@font/roboto_black"
+        android:text="Off"
+        android:textSize="22sp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Off"
+        app:layout_constraintStart_toEndOf="@+id/OffIcon"
+        app:layout_constraintTop_toTopOf="@+id/Off"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <TextView
+        android:id="@+id/OffText2nd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:fontFamily="@font/roboto_condensed_light"
+        android:text="Turns off PC"
+        android:textSize="16sp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Off"
+        app:layout_constraintStart_toEndOf="@+id/OffIcon"
+        app:layout_constraintTop_toTopOf="@+id/Off"
+        app:layout_constraintVertical_bias="0.800" />
+
+    <TextView
+        android:id="@+id/RestartText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:fontFamily="@font/roboto_black"
+        android:text="Restart"
+        android:textSize="22sp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Restart"
+        app:layout_constraintStart_toEndOf="@+id/RestartIcon"
+        app:layout_constraintTop_toTopOf="@+id/Restart"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <TextView
+        android:id="@+id/RestartText2nd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:fontFamily="@font/roboto_condensed_light"
+        android:text="Restarts PC"
+        android:textSize="16sp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Restart"
+        app:layout_constraintStart_toEndOf="@+id/RestartIcon"
+        app:layout_constraintTop_toTopOf="@+id/Restart"
+        app:layout_constraintVertical_bias="0.800" />
+
+    <TextView
+        android:id="@+id/SleepText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:fontFamily="@font/roboto_black"
+        android:text="Sleep"
+        android:textSize="22sp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Sleep"
+        app:layout_constraintStart_toEndOf="@+id/SleepIcon"
+        app:layout_constraintTop_toTopOf="@+id/Sleep"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <TextView
+        android:id="@+id/SleepText2nd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:fontFamily="@font/roboto_condensed_light"
+        android:text="Puts PC into sleep mode"
+        android:textSize="16sp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Sleep"
+        app:layout_constraintStart_toEndOf="@+id/SleepIcon"
+        app:layout_constraintTop_toTopOf="@+id/Sleep"
+        app:layout_constraintVertical_bias="0.800" />
+
+    <TextView
+        android:id="@+id/LockText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:fontFamily="@font/roboto_black"
+        android:text="Lock"
+        android:textSize="22sp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Lock"
+        app:layout_constraintStart_toEndOf="@+id/LockIcon"
+        app:layout_constraintTop_toTopOf="@+id/Lock"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <TextView
+        android:id="@+id/LockText2nd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:fontFamily="@font/roboto_condensed_light"
+        android:text="Lock PC"
+        android:textSize="16sp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Lock"
+        app:layout_constraintStart_toEndOf="@+id/LockIcon"
+        app:layout_constraintTop_toTopOf="@+id/Lock"
+        app:layout_constraintVertical_bias="0.800" />
+
+    <TextView
+        android:id="@+id/ProgramText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:fontFamily="@font/roboto_black"
+        android:text="Program"
+        android:textSize="22sp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Program"
+        app:layout_constraintStart_toEndOf="@+id/ProgramIcon"
+        app:layout_constraintTop_toTopOf="@+id/Program"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <TextView
+        android:id="@+id/ProgramText2nd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:fontFamily="@font/roboto_condensed_light"
+        android:text="Runs the selected program"
+        android:textSize="16sp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Program"
+        app:layout_constraintStart_toEndOf="@+id/ProgramIcon"
+        app:layout_constraintTop_toTopOf="@+id/Program"
+        app:layout_constraintVertical_bias="0.800" />
+
+    <TextView
+        android:id="@+id/Cat1Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:fontFamily="@font/roboto_black"
+        android:text="Category 1"
+        android:textSize="22sp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Cat1"
+        app:layout_constraintStart_toEndOf="@+id/Cat1Icon"
+        app:layout_constraintTop_toTopOf="@+id/Cat1"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <TextView
+        android:id="@+id/Cat1Text2nd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:fontFamily="@font/roboto_condensed_light"
+        android:text="Runs the selected programs inside"
+        android:textSize="16sp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Cat1"
+        app:layout_constraintStart_toEndOf="@+id/Cat1Icon"
+        app:layout_constraintTop_toTopOf="@+id/Cat1"
+        app:layout_constraintVertical_bias="0.800" />
+
+    <TextView
+        android:id="@+id/Cat2Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:fontFamily="@font/roboto_black"
+        android:text="Category 2"
+        android:textSize="22sp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Cat2"
+        app:layout_constraintStart_toEndOf="@+id/Cat2Icon"
+        app:layout_constraintTop_toTopOf="@+id/Cat2"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <TextView
+        android:id="@+id/Cat2Text2nd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:fontFamily="@font/roboto_condensed_light"
+        android:text="Runs the selected programs inside"
+        android:textSize="16sp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Cat2"
+        app:layout_constraintStart_toEndOf="@+id/Cat2Icon"
+        app:layout_constraintTop_toTopOf="@+id/Cat2"
+        app:layout_constraintVertical_bias="0.800" />
+
+
+    <TextView
+        android:id="@+id/CancelText"
+        android:translationZ="90dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Cancel"
+        android:textColor="#F16767"
+        android:textSize="22.5sp"
+        app:layout_constraintBottom_toBottomOf="@+id/Cancel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Cancel" />
+
+    <ImageView
+        android:id="@+id/status"
+        android:layout_width="1000px"
+        android:layout_height="175px"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangle_32" />
+
+    <ImageView
+        android:id="@+id/On"
+        android:layout_width="1000px"
+        android:layout_height="175px"
+        android:layout_marginTop="5px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/status"
+        app:srcCompat="@drawable/rectangle_32" />
+
+    <ImageView
+        android:id="@+id/Off"
+        android:layout_width="1000px"
+        android:layout_height="175px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/On"
+        app:srcCompat="@drawable/rectangle_32" />
+
+    <ImageView
+        android:id="@+id/Restart"
+        android:layout_width="1000px"
+        android:layout_height="175px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Off"
+        app:srcCompat="@drawable/rectangle_32" />
+
+    <ImageView
+        android:id="@+id/Sleep"
+        android:layout_width="1000px"
+        android:layout_height="175px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Restart"
+        app:srcCompat="@drawable/rectangle_32" />
+
+    <ImageView
+        android:id="@+id/Lock"
+        android:layout_width="1000px"
+        android:layout_height="175px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Sleep"
+        app:srcCompat="@drawable/rectangle_32" />
+
+    <ImageView
+        android:id="@+id/Program"
+        android:layout_width="1000px"
+        android:layout_height="175px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Lock"
+        app:srcCompat="@drawable/rectangle_32" />
+
+    <ImageView
+        android:id="@+id/Cat1"
+        android:layout_width="1000px"
+        android:layout_height="175px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Program"
+        app:srcCompat="@drawable/rectangle_32" />
+
+    <ImageView
+        android:id="@+id/Cat2"
+        android:layout_width="1000px"
+        android:layout_height="195px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Cat1"
+        app:srcCompat="@drawable/rectangle_32" />
+
+    <ImageView
+        android:id="@+id/Cancel"
+        android:layout_width="500px"
+        android:layout_height="175px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Cat2"
+        app:srcCompat="@drawable/rectangle_26" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
